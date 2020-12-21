@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Operacao</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+</head>
+<body style="height:1500px">
+
+<!-- navbar -->
+<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+    <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="index.html">Home</a>
+            </li>
+           
+            <li class="nav-item">
+                <a class="nav-link" href="sacado.html">Sacado</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="cedente.html">Cedente</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="titulo.html">Título</a>
+            </li>
+<li class="nav-item">
+                <a class="nav-link" href="operacao.html">Operação</a>
+            </li>
+<li class="nav-item">
+                <a class="nav-link" href="relatorio.html">Relatório</a>
+            </li>
+        </ul>
+    </div>
+    <div class="mx-auto order-0">
+        <a class="navbar-brand mx-auto" href="index.html">Darwin</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </div>
+    <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">Admin</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="../index.html">Sair</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<!-- navbar fim -->
+
+<!-- container -->
+  
+<div class="container" style="margin-top:80px">
+
+
+
+<!-- card -->
+<div class="card">
+  <div class="card-header">Operação</div>
+  <div class="card-body">
+
+<div class="row">
+    
+    <div class="col-md-6">
+
+  <form>
+    <div class="input-group mb-3">
+      <div class="input-group-prepend">
+        <span class="input-group-text" style="width:100px;">Cedente</i></span>
+      </div>
+       <select class="form-control" id="sel1">
+    <option>cedente</option>
+    <option>1</option>
+    <option>2</option>
+    <option>3</option>
+    <option>4</option>
+  </select>
+    </div>
+
+<button type="submit" class="btn btn-primary" title="Pesquisar">Pesquisar</button>
+
+  </form>
+
+</div>
+
+<div class="col-md-6">
+
+</div>
+
+
+</div> <!-- Fim form -->
+
+<hr>
+
+<!-- Tables -->
+
+<h3>Título</h3>
+
+  <table class="table">
+    <thead class="thead-light">
+      <tr>
+        <th>Id Titular</th>
+        <th>Id Cedente</th>
+        <th>Id Sacado</th>
+	<th>Valor</th>
+	<th>Emissão</th>
+	<th>Vencimento</th>
+	<th>
+<button type="submit" class="btn btn-primary" title="Pesquisar">Enviar</button>
+	</th>
+      </tr>
+    </thead>
+
+    <tbody>
+
+<!-- Banco de dados -->
+      <tr>
+        <td>1</td>
+        <td>2</td>
+        <td>3</td>
+<td>R$ 100.00</td>
+<td>15/12/2020</td>
+<td>15/01/2021</td>
+<td >
+<input type="checkbox" class="form-control" value="">
+</td>
+      </tr>
+<!-- Banco de dados Fim -->
+     
+    </tbody>
+
+  </table>
+
+
+<!-- Table -->
+
+
+<hr>
+
+<!-- Tables -->
+
+<h3>Operação</h3>
+
+  <table class="table">
+    <thead class="thead-light">
+      <tr>
+        <th>Id Operação</th>
+        <th>Id Titulo</th>
+        <th>Id Cedente</th>
+	
+	
+	<th>
+<button type="submit" class="btn bg-danger text-white" title="Pesquisar">Remover</button>
+	</th>
+      </tr>
+    </thead>
+
+    <tbody>
+
+<!-- Banco de dados -->
+      <tr>
+        <td>1</td>
+        <td>2</td>
+        <td>3</td>
+
+<td >
+<input type="checkbox" class="form-control" value="">
+</td>
+      </tr>
+<!-- Banco de dados Fim -->
+     
+    </tbody>
+
+  </table>
+
+
+<!-- Table -->
+
+<button type="submit" class="btn bg-warning" title="Novo">Voltar</button>
+
+</div>
+  <div class="card-footer"></div>
+</div>
+  
+ 
+</div> <!-- card fim -->
+
+
+
+
+<hr>
+<div class="container text-center">
+<span >2020 - Darwin<span>
+</div>
+
+
+</body>
+</html>
+
+
